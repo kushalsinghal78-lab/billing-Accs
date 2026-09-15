@@ -1,0 +1,23 @@
+{
+  "name": "moms-pride-billing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mom's Pride Billing, Inventory and Transaction Management",
+  "scripts": {
+    "build": "echo Web assets are already in www/",
+    "cap:sync": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.4.0",
+    "@capacitor/android": "^7.4.0",
+    "@capacitor/camera": "^7.0.2",
+    "@capacitor/filesystem": "^7.0.1",
+    "@capacitor/share": "^7.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.0"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  }
+}
